@@ -1,0 +1,144 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+.sticky-top
+{
+    position: sticky;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+#home{
+  background-color: black;
+  padding: 5%;
+  display: grid;
+  text-align: center;
+  background-size: cover; 
+}
+
+#c1{
+  color: white;
+  font-size: 130px;
+  font-weight: 800;
+  padding-right: 90%; 
+}
+#c2{
+  width: 45vw;
+  padding-top: 60%;
+  padding-left: 30%;
+}
+.bi{
+  color: white;
+}
+.headings {
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 2;
+  }
+}
+
+.about-img {
+    height: 20rem;
+    width: 20rem;
+  }
+  
+  .about-img img {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 0%;
+  }
+  
+  .about-text {
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-img {
+    margin-right: 10rem;
+  }
+  #text-1
+  {
+    font-size: 40px;
+  }
+  .card-title
+  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-body:hover
+  {
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:black;
+    color:white;
+    }
+  }
+  
+  #formhead
+  {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #contactus
+  {
+    background-color: black;
+  }
+  .btn
+  {
+    padding : 10px 40px;
+    border-radius: 0%;
+}
+.form-floating
+{
+    color: white;
+}
+.form-control
+{
+    background-color: black;
+    color: white;
+    border-radius: 0%;
+}
+.container1
+  {
+    display: flex;
+    /* justify-content: flex-start; */
+    overflow-x: auto;
+    border-bottom: 5px solid black;
+    
+  }
+  .container1::-webkit-scrollbar{
+    width: 1px;
+    color: black;
+  }
+  .card-body{
+    display: inline-block;
+    
+  }
